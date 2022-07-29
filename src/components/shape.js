@@ -1,10 +1,14 @@
-var Shape = require('./shape.js');
-class Circle extends Shape{
-    constructor(color) {
-        super();
+class Shape {
+    constructor() {
+        this.color="green";
     }
-    calculateArea() {
+    drawShape() {
 
     }
+    calculateArea(){
+
+    }
+
 }
-module.exports=Circle;
+module.exports = Shape;
+
